@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Shweta Shendage – Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrap bar">
+            <a class="logo" href="#home">Shweta Shendage</a>
+            <nav id="nav" aria-label="Main">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="tools">
+                <button class="icon-btn" id="theme" aria-label="Switch light or dark theme">◐</button>
+                <button class="icon-btn menu-btn" id="menu" aria-label="Open menu" aria-expanded="false"
+                    aria-controls="nav">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="wrap hero-grid">
+                <div>
+                    <p class="role">Engineering student &amp; web developer</p>
+                    <h1>Hi, I’m Shweta Shendage.</h1>
+                    <p class="lead">I build clean, easy-to-use websites and care about how they look and feel on every
+                        screen.</p>
+                    <div class="actions">
+                        <a class="btn primary" href="#projects">See my projects</a>
+                        <a class="btn ghost" href="#contact">Get in touch</a>
+                    </div>
+                </div>
+                <div class="window" aria-hidden="true">
+                    <div class="top"><i></i><i></i><i></i></div>
+                    <pre><b>const</b> <em>shweta</em> = {
+  study: <em>"Engineering"</em>,
+  love:  <em>"Web development"</em>,
+  build: [<em>"HTML"</em>, <em>"CSS"</em>, <em>"JS"</em>],
+  status: <em>"Open to opportunities"</em>
+};<span class="caret"></span></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="wrap">
+                <h2>About me</h2>
+                <p class="lead">An engineering student who enjoys turning ideas into working websites.</p>
+                <div class="about-grid">
+                    <div>
+                        <p>I’m Shweta, an engineering student and a passionate web developer. I like the whole journey
+                            of a project: sketching the idea, designing the interface, and writing the code that brings
+                            it to life.</p>
+                        <p>I’m always learning, and I enjoy building small, useful tools that help me practise new
+                            skills and make interfaces simple for the people using them.</p>
+                    </div>
+                    <div class="facts">
+                        <div class="fact"><span>Studying</span><strong>Engineering</strong></div>
+                        <div class="fact"><span>Focus</span><strong>Web development &amp; UI/UX design</strong></div>
+                        <div class="fact"><span>Based in</span><strong>Maharashtra, India</strong></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="wrap">
+                <h2>Skills</h2>
+                <p class="lead">The tools I use to design and build for the web.</p>
+                <div class="grid skills">
+                    <article class="card">
+                        <div class="badge">H</div>
+                        <h3>HTML</h3>
+                        <p>Semantic, accessible page structure.</p>
+                    </article>
+                    <article class="card">
+                        <div class="badge">C</div>
+                        <h3>CSS</h3>
+                        <p>Responsive layouts and consistent styling.</p>
+                    </article>
+                    <article class="card">
+                        <div class="badge">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactive features and dynamic pages.</p>
+                    </article>
+                    <article class="card">
+                        <div class="badge">Py</div>
+                        <h3>Python</h3>
+                        <p>Problem solving and scripting.</p>
+                    </article>
+                    <article class="card">
+                        <div class="badge">UX</div>
+                        <h3>UI/UX design</h3>
+                        <p>Simple, user-friendly interfaces.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrap">
+                <h2>Projects</h2>
+                <p class="lead">A few things I’ve built while learning and practising.</p>
+                <div class="grid projects">
+                    <article class="card project">
+                        <div class="thumb" aria-hidden="true">✅</div>
+                        <h3>To-do list</h3>
+                        <p>Add, complete and delete tasks to stay organised through the day.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </article>
+                    <article class="card project">
+                        <div class="thumb" aria-hidden="true">🧮</div>
+                        <h3>Calculator</h3>
+                        <p>A clean calculator that handles everyday arithmetic with a simple keypad.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </article>
+                    <article class="card project">
+                        <div class="thumb" aria-hidden="true">🌤️</div>
+                        <h3>Weather app</h3>
+                        <p>Search a city and see the current temperature and conditions at a glance.</p>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>UI/UX</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="wrap">
+                <h2>Contact</h2>
+                <p class="lead">Have a project, an internship or just a question? I’d love to hear from you.</p>
+                <div class="contact-grid">
+                    <div>
+                        <p>The quickest way to reach me is by email.</p>
+                        <a class="mail" href="mailto:shweta2@gmail.com">shweta2@gmail.com</a>
+                    </div>
+                    <form id="form">
+                        <label>Your name<input name="name" required autocomplete="name"></label>
+                        <label>Your email<input name="email" type="email" required autocomplete="email"></label>
+                        <label>Message<textarea name="message" required></textarea></label>
+                        <button class="btn primary" type="submit">Send email</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrap">© <span id="year">2026</span> Shweta Shendage. Built with HTML, CSS and JavaScript.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
